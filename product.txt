@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Smartphone",
+        "price": 699.99,
+        "image": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80",
+        "description": "A sleek, high-performance smartphone with a vibrant display and advanced camera system, perfect for staying connected and capturing life’s moments.",
+        "stock": 25
+    },
+    {
+        "name": "Tablet",
+        "price": 399.99,
+        "image": "https://images.pexels.com/photos/5789881/pexels-photo-5789881.jpeg",
+        "description": "A versatile tablet with a large, crisp screen, ideal for work, entertainment, and creative tasks on the go.",
+        "stock": 15
+    },
+    {
+        "name": "Smartwatch",
+        "price": 199.99,
+        "image": "https://images.pexels.com/photos/17775091/pexels-photo-17775091.jpeg",
+        "description": "A stylish smartwatch with fitness tracking, notifications, and customizable watch faces to keep you in sync with your day.",
+        "stock": 30
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "price": 89.99,
+        "image": "https://images.pexels.com/photos/4917455/pexels-photo-4917455.jpeg",
+        "description": "A portable Bluetooth speaker delivering rich, powerful sound, perfect for parties or outdoor adventures.",
+        "stock": 40
+    },
+    {
+        "name": "Wireless Headphones",
+        "price": 149.99,
+        "image": "https://images.pexels.com/photos/4887246/pexels-photo-4887246.jpeg",
+        "description": "Comfortable wireless headphones with noise cancellation and crisp audio, designed for immersive music and calls.",
+        "stock": 20
+    },
+    {
+        "name": "Camera",
+        "price": 499.99,
+        "image": "https://images.pexels.com/photos/1561081/pexels-photo-1561081.jpeg",
+        "description": "A professional-grade DSLR camera with high-resolution imaging, ideal for photography enthusiasts and pros alike.",
+        "stock": 10
+    }
+]

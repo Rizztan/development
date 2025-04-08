@@ -1,0 +1,17 @@
+from django.urls import path
+from .views import HelloWorld 
+from .views import Students
+from .views import ContactListView
+from .exam_views import ChatView
+
+urlpatterns = [
+    path('hello/', HelloWorld.as_view(), name='hello_world'),
+    path('Students/', Students.as_view(), name='list_student'),
+    path('contact/', ContactListView.as_view(), name='contact_new'),
+    path('chat/', ChatView.as_view(), name='chat_view'),
+    path('products/', ProductListView.as_view(), name='product-list'),
+    path('cart/', AddToCartView.as_view(), name='add_cart'),
+    path('cartitems/', CartItemsView.as_view(), name='cart_items'),
+    path('buynow/', BuyNowView.as_view(), name='buy_now'),
+]
+

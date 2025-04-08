@@ -16,8 +16,7 @@ Including another URLconf
 """
 # app/urls.py (main project urls.py)
 # app/urls.py
-from django.contrib import admin
-from django.urls import path, include
+
 # app/urls.py
 
 from django.contrib import admin
@@ -27,4 +26,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),
     path('api/exam/', include('api.exam_urls')),
+    path('api/', include('api.store_urls')),  # ✅ Include your app's URLs here
+
 ]
